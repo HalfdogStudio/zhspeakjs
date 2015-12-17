@@ -1,0 +1,18 @@
+{
+  "name": "zhspeakjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "baidutts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "reverland(sa@linuxer.me)",
+  "license": "MIT",
+  "dependencies": {
+    "lame": "^1.2.3",
+    "speaker": "^0.2.6"
+  },
+  "bin": {
+    "zhspeakjs": "./baidutts.js"
+  }
+}
